@@ -103,17 +103,6 @@ body {
     position: relative;
 }
 
-.initial-price::after {
-  content: "";
-  height: 1px;
-  background-color: #6c7289;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  }
-
 button {
     border: none;
     padding: 4%;
