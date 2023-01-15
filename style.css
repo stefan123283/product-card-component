@@ -43,10 +43,6 @@ body {
     border-bottom-left-radius: 8px;
 }
 
-.desktop-img {
-    display: none; 
-}
-
 .product-image-container {
     overflow: hidden;
 }
@@ -150,14 +146,6 @@ button img {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         border-top-right-radius: 8px;
-    }
-
-    .mobile-img {
-        display: none;
-    }
-
-    .desktop-img {
-        display: inline;
     }
 
     .product-type {
