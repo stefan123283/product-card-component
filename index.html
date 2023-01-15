@@ -15,8 +15,10 @@
 
 <main id="product-card-container">
   <section class="product-image-container">
-    <img class = "mobile-img" src="./images/image-product-mobile.jpg" alt="perfume">
-    <img class = "desktop-img" src="./images/image-product-desktop.jpg" alt="perfume">
+    <picture>
+  <source class = "desktop-img" srcset="./images/image-product-desktop.jpg" media="(min-width: 1000px)">
+  <img class = "mobile-img" src="./images/image-product-mobile.jpg" alt="perfume image">
+</picture>
   </section>
 <section class="product-information-container">
 <p class="product-type">PERFUME</p>
