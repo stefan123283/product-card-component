@@ -33,19 +33,19 @@
     overflow-wrap: break-word;
   }
 
-#product-card-container, .product-image-container, .product-information-container, .price-container, .discount-price, button {
+.product-card-container, .product-image-container, .product-information-container, .price-container, .discount-price, button {
     display: flex;
 }
 
-#product-card-container, .product-information-container {
+.product-card-container, .product-information-container {
     flex-direction: column;
 }
 
-#product-card-container, button {
+.product-card-container, button {
     justify-content: center;
 }
 
-#product-card-container {
+.product-card-container {
     height: 100vh;
     padding-left: 5%;
     padding-right: 5%;
